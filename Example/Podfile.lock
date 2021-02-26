@@ -1,0 +1,28 @@
+PODS:
+  - Masonry (1.1.0)
+  - YUToolBox (0.1.0):
+    - YUToolBox/Category (= 0.1.0)
+    - YUToolBox/UI (= 0.1.0)
+  - YUToolBox/Category (0.1.0)
+  - YUToolBox/UI (0.1.0):
+    - Masonry (= 1.1.0)
+    - YUToolBox/Category
+
+DEPENDENCIES:
+  - YUToolBox (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  YUToolBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YUToolBox: b57d7ff956fcf7aae9cd0e8784d908c5ba6a35dc
+
+PODFILE CHECKSUM: 8115586e968c3048a0ab0c65f8b2845417a4ba9a
+
+COCOAPODS: 1.10.1

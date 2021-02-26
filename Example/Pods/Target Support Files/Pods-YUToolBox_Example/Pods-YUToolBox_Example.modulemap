@@ -1,0 +1,6 @@
+framework module Pods_YUToolBox_Example {
+  umbrella header "Pods-YUToolBox_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

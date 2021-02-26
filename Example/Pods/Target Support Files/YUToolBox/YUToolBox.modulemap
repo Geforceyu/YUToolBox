@@ -1,0 +1,6 @@
+framework module YUToolBox {
+  umbrella header "YUToolBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

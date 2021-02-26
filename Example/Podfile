@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YUToolBox_Example' do
+  pod 'YUToolBox', :path => '../'
+
+  target 'YUToolBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
